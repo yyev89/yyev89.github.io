@@ -8619,7 +8619,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
-	margin-left: 18px;
+	margin-left: 38px;
 }
 
 .rd-navbar-static .rd-nav-link {
@@ -9555,7 +9555,7 @@ html.tablet .ui-to-top {
 		padding: 30px 0;
 	}
 	.rd-navbar-modern.rd-navbar-static .rd-navbar-main > * + * {
-		margin-left: 15px;
+		margin-left: 45px;
 	}
 	.rd-navbar-modern.rd-navbar-static .rd-navbar-nav > li + li {
 		margin-left: 60px;
@@ -14440,20 +14440,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	.slick-slider-1 .carousel-child {
 		padding-bottom: 80px;
 	}
-}
-
-.language-switcher {
-	display: inline-block;
-    position: absolute;
-    right: 15px;
-}
-
-.lang-link {
-    text-decoration: none;
-    padding: 5px;
-}
-
-.lang-link.active {
-    font-weight: bold;
-    color: #007bff;
 }
