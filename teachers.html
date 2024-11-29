@@ -13,7 +13,7 @@
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="Ви використовуєте застарілий веб-переглядач. Будь ласка оновіть його."></a></div>
     <div class="preloader">
       <div class="preloader-logo"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-245x50.png" alt="" width="245" height="50"/><img class="brand-logo-light" src="images/logo-inverse-245x50.png" alt="" width="245" height="50"/></a>
       </div>
@@ -38,8 +38,11 @@
                   <!-- RD Navbar Brand-->
                   <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-245x50.png" alt="" width="245" height="50"/><img class="brand-logo-light" src="images/logo-inverse-245x50.png" alt="" width="245" height="50"/></a>
                   </div>
-                  <div class="language-switcher">
-                    <a href="#" class="lang-link" data-lang="uk">UK</a>|<a href="#" class="lang-link" data-lang="it">IT</a>
+                  <div class="translate-switch">
+                    <strong>
+                      <a class='external' attr-trans='it' href='/index.html?location=it'>IT</a>/
+                      <a class='external'attr-trans='ua' href='/index.html' >UA</a>
+                    </strong>
                   </div>
                 </div>
                 <div class="rd-navbar-nav-wrap">
@@ -56,6 +59,7 @@
                       <li class="rd-nav-item"><a class="rd-nav-link" href="news.html" data-i18n="news">Новини та Події</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html" data-i18n="contact">Контакти</a>
+                      </li>
                     </ul>
                 </div>
               </div>
@@ -81,9 +85,9 @@
             </div>
             <div class="col-md-11 col-lg-7 col-xl-7">
               <div class="box-1">
-                <h2>Бідзіля Галина Михайлівна</h2>
-                <h5>Учителька української мови та літератури, спеціаліст вищої категорії, педагогічний стаж - 15 років.</h5>
-                <p>Маю дві вищі освіти: Укр ДЛТУ (м. Львів) -  інженер лісового та садово-паркового господарства; УжНУ (м. Ужгород) -  викладач української мови та літератури. 
+                <h2 data-i18n="bidzilya">Бідзіля Галина Михайлівна</h2>
+                <h5 data-i18n="bidzilya-desc0">Учителька української мови та літератури, спеціаліст вищої категорії, педагогічний стаж - 15 років.</h5>
+                <p data-i18n="bidzilya-desc1">Маю дві вищі освіти: Укр ДЛТУ (м. Львів) -  інженер лісового та садово-паркового господарства; УжНУ (м. Ужгород) -  викладач української мови та літератури. 
                     З 2008 року по даний час працюю на педагогічній ниві у закладі загальної середньої освіти І-ІІІ ст. 
                     Маю досвід індивідуальної роботи з дітьми із особливими освітніми потребами (проведення навчальних занять удома), уроків та класного керівництва в  інклюзивному класі.</p>
               </div>
@@ -96,9 +100,9 @@
             </div>
             <div class="col-md-11 col-lg-7 col-xl-7">
               <div class="box-1">
-                <h2>Оксана Тютюник</h2>
-                <h5>Викладач музичного мистецтва з понад 30-річним досвідом.</h5>
-                <p>Вона виступала як скрипалька в Кіровоградському музично-драматичному театрі та в Римському оркестрі класичної музики. Оксана активно популяризує українську музичну спадщину в Італії, 
+                <h2 data-i18n="tutunyk">Оксана Тютюник</h2>
+                <h5 data-i18n="tutunyk-desc0">Викладач музичного мистецтва з понад 30-річним досвідом.</h5>
+                <p data-i18n="tutunyk-desc1">Вона виступала як скрипалька в Кіровоградському музично-драматичному театрі та в Римському оркестрі класичної музики. Оксана активно популяризує українську музичну спадщину в Італії, 
                     організовуючи концерти та виступи, що знайомлять європейську аудиторію з творами Миколи Лисенка, Мирослава Скорика та інших відомих українських композиторів. Вона передає своїм учням 
                     любов до музики, допомагаючи їм розвивати музичні здібності та відкривати для себе багатство української культури.</p>
               </div>
@@ -111,9 +115,9 @@
             </div>
             <div class="col-md-11 col-lg-7 col-xl-7">
               <div class="box-1">
-                <h2>Василь Пиріг</h2>
-                <h5>Куратор інтерактивного курсу з розвитку української мови для підлітків.</h5>
-                <p>Людина з великим досвідом – поет, актор, публіцист, лауреат 1-ї премії Міжнародного фестивалю "Baltic Fest". Учасник численних міжнародних конкурсів. Активіст у сфері популяризації української культури.
+                <h2 data-i18n="pyrig">Василь Пиріг</h2>
+                <h5 data-i18n="ukr-teenagers">Куратор інтерактивного курсу з розвитку української мови для підлітків.</h5>
+                <p data-i18n="pyrig-desc0">Людина з великим досвідом – поет, актор, публіцист, лауреат 1-ї премії Міжнародного фестивалю "Baltic Fest". Учасник численних міжнародних конкурсів. Активіст у сфері популяризації української культури.
                   Василь – це не просто викладач, а творча особистість, яка допоможе вашим дітям розвивати українську мову через інтерактивні та експериментальні методи, використовуючи свої глибокі знання у театральній, 
                   поетичній та журналістській діяльності.</p>
               </div>
@@ -126,9 +130,9 @@
             </div>
             <div class="col-md-11 col-lg-7 col-xl-7">
               <div class="box-1">
-                <h2>Оксана Підпалюк</h2>
-                <h5>Вихователь молодшої групи 3-5 років. Вчитель Лего.</h5>
-                <p>Освіта Львівський педагогічний коледж (дошкільне виховання), ЛНУ ім. І.Франка ( українська філологія) Досвід роботи вихователя у різних вікових групах, а також з дітьми з особливими освітніми потребами.</p>
+                <h2 data-i18n="pidpalyuk">Оксана Підпалюк</h2>
+                <h5 data-i18n="lego-teacher">Вихователь молодшої групи 3-5 років. Вчитель Лего.</h5>
+                <p data-i18n="pidpalyuk-desc0">Освіта Львівський педагогічний коледж (дошкільне виховання), ЛНУ ім. І.Франка ( українська філологія) Досвід роботи вихователя у різних вікових групах, а також з дітьми з особливими освітніми потребами.</p>
               </div>
             </div>
           </div>
@@ -146,7 +150,7 @@
                       <div class="counter-minimal-counter">
                         <div class="counter">60</div><span class="counter-postfix">+</span>
                       </div>
-                      <p class="counter-minimal-title">Учнів</p>
+                      <p class="counter-minimal-title" data-i18n="pupils">Учнів</p>
                     </article>
                   </div>
                   <div class="col-6 col-md-3 col-lg-12">
@@ -154,13 +158,13 @@
                       <div class="counter-minimal-counter">
                         <div class="counter">6</div>
                       </div>
-                      <p class="counter-minimal-title">Вчителів</p>
+                      <p class="counter-minimal-title" data-i18n="teachers-footer">Вчителів</p>
                     </article>
                   </div>
                   <div class="col-6 col-md-3 col-lg-12">
                     <article class="counter-minimal">
                       <div class="counter-minimal-counter counter">650</div>
-                      <p class="counter-minimal-title">Учасників мовного клубу</p>
+                      <p class="counter-minimal-title" data-i18n="speaking-club">Учасників мовного клубу</p>
                     </article>
                   </div>
                 </div>
@@ -170,8 +174,8 @@
               <div class="col-sm-6 col-lg-5 col-xl-4">
                 <div class="row row-50 row-xl-70">
                   <div class="col-12">
-                    <h3>Про нас</h3>
-                    <p>Починаючи з 2024-го року, ми будуємо сильну та згуртовану Українську спільноту.</p>
+                    <h3 data-i18n="about-us">Про нас</h3>
+                    <p data-i18n="community">Починаючи з 2024-го року, ми будуємо сильну та згуртовану Українську спільноту.</p>
                   </div>
                 </div>
               </div>
@@ -181,14 +185,18 @@
         <div class="footer-classic-aside">
           <div class="container">
             <!-- Rights-->
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Всі права застережено.</span><span>&nbsp;</span><br class="d-sm-none"/><a href="#">Умови Використання</a><span> та</span><span>&nbsp;</span><a href="#">Політика Приватності</a>.</p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span data-i18n="rights">Всі права застережено.</span><span>&nbsp;</span><br class="d-sm-none"/><a href="#" data-i18n="usage">Умови Використання</a><span> та</span><span>&nbsp;</span><a href="#" data-i18n="privacy">Політика Приватності</a>.</p>
           </div>
         </div>
       </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
-    <script src="js/i18n.js"></script>
+    <script src="js/translate.js"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        loadTranslations();
+        
+    </script>
   </body>
 </html>
