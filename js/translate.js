@@ -69,19 +69,20 @@ function loadTranslations() {
 
 
 function applyTranslations(translations) {
-
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (translations[key]) {
-            el.innerHTML = translations[key];
+            if (el.tagName.toLowerCase() === 'img') {
+                el.setAttribute('alt', translations[key]);
+            } else {
+                el.innerHTML = translations[key];
+            }
         } else {
-            console.warn(`Key '${key}' not found in json trans`);
+            console.warn(`Key '${key}' not found in JSON translations`);
         }
     });
 }
-
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
