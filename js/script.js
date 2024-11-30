@@ -1233,9 +1233,4 @@
 		}
 
 	});
-
-    $(function() {
-        window.i18n = new I18nHandler();
-    });	
-
 }());
