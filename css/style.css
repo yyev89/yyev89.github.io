@@ -8823,7 +8823,7 @@ html.tablet .ui-to-top {
 		margin-left: 6px;
 	}
 	.rd-navbar-static .rd-nav-link {
-		font-size: 18px;
+		font-size: 17px;
 	}
 }
 
@@ -9358,7 +9358,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-panel {
-	min-width: 240px;
+	min-width: 150px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand {
@@ -9384,7 +9384,7 @@ html.tablet .ui-to-top {
 
 @media (min-width: 1200px) {
 	.rd-navbar-classic.rd-navbar-static .rd-navbar-panel {
-		min-width: 300px;
+		min-width: 150px;
 	}
 	.rd-navbar-classic.rd-navbar-static .rd-navbar-main {
 		padding: 35px 0 35px;
