@@ -3,7 +3,6 @@ function loadTranslations() {
 
     var params = new URLSearchParams(window.location.search);
 
-
     var location = params.get('location');
     if(!location || location != 'it'){
         location = 'ua';
@@ -25,9 +24,7 @@ function loadTranslations() {
         });
 
 
-
     //change links 
-
     if (params.toString()) {
         document.querySelectorAll('a:not(.external)').forEach(link => {
             const currentHref = link.href;
@@ -37,7 +34,6 @@ function loadTranslations() {
     }
 
     //add class active in change local button
-
     const element = document.querySelector('.translate-switch a[attr-trans="'+location+'"]');
 
     if (element) {
@@ -45,7 +41,6 @@ function loadTranslations() {
     }
 
     //check device first visit local
-
     if (!localStorage.getItem('local')) {
 
         const userLocale = navigator.language || navigator.userLanguage;
@@ -62,10 +57,7 @@ function loadTranslations() {
              localStorage.setItem('local', 1);
         }
     }
-
-
 }
-
 
 
 function applyTranslations(translations) {
@@ -100,5 +92,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-

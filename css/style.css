@@ -14441,3 +14441,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		padding-bottom: 80px;
 	}
 }
+
+.translate-switch {
+    position: fixed;
+    right: 10px;
+    top: 0px;
+}
+
+.translate-switch a:hover {
+	color: #ffb262;
+}
+
+.external {
+	text-decoration: none;
+	color: #000000;
+}
+
+.external.active {
+	color: #ffb262;
+}
