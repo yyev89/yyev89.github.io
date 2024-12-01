@@ -26,16 +26,20 @@ function loadTranslations() {
 
     // change links
     if (params.toString()) {
-    document.querySelectorAll('a:not(.external)').forEach(link => {
-        const currentHref = link.href;
-        const url = new URL(currentHref);
+        document.querySelectorAll('a:not(.external)').forEach(link => {
+            const currentHref = link.href;
+            try {
+                const url = new URL(currentHref);
 
-        const hash = url.hash;
-        url.hash = '';
-        params.forEach((value, key) => url.searchParams.set(key, value));
-        url.hash = hash;
+                const hash = url.hash;
+                url.hash = '';
+                params.forEach((value, key) => url.searchParams.set(key, value));
+                url.hash = hash;
 
-        link.href = url.toString();
+                link.href = url.toString();
+            } catch (error) {
+                console.log("No valide href" + currentHref);
+            }
         });
     }
 
